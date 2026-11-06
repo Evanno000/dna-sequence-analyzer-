@@ -1,38 +1,55 @@
-# DNA Sequence Analyzer
+# Protein Sequence Analyzer
 
-## Project Overview
-This is my first bioinformatics project using Python. It analyses a DNA sequence by calculating nucleotide composition and GC content.
+## Project Description
+This is a beginner-friendly bioinformatics project developed using Python. It analyses protein sequences by calculating their length, counting individual amino acids, and determining their percentage composition.
 
-## Objectives
-- Calculate DNA sequence length.
-- Count Adenine, Thymine, Guanine and Cytosine.
-- Calculate GC percentage.
-- Understand basic DNA sequence analysis.
+## Project Objectives
+- Determine the total number of amino acids in a protein sequence.
+- Count the occurrence of each amino acid.
+- Calculate the percentage composition of each amino acid.
+- Validate protein sequences using the 20 standard amino-acid letters.
 
 ## Biological Background
-DNA contains four nitrogenous bases: A, T, G and C.
+Proteins are biological macromolecules made up of amino acids joined together by peptide bonds.
 
-GC content is the percentage of guanine and cytosine bases in a DNA sequence.
+There are 20 standard amino acids commonly used to build proteins. Understanding their composition helps researchers study protein characteristics and biological functions.
 
-## Programming Language
-- Python
+## Technologies Used
+- Python 3
+- Visual Studio Code
 
-## Functions Used
-- `len()` – calculates sequence length.
-- `count()` – counts individual nucleotides.
-- `print()` – displays results.
-- `round()` – rounds numerical results.
+## Features
+1. Protein sequence input.
+2. Sequence length calculation.
+3. Amino acid counting.
+4. Amino acid percentage calculation.
+5. Protein sequence validation.
+
+## Example Input
+```python
+protein = "ACDEFGHIKLMNPQRSTVWY"
+```
+
+## Example Output
+- Protein length: 20 amino acids.
+- Each amino acid occurs once.
+- Each amino acid represents 5.00% of the sequence.
 
 ## How to Run
-1. Install Python.
-2. Open the project in VS Code.
-3. Run `dna_analyzer.py`.
-
-## Example Results
-The programme reports:
-- DNA sequence length.
-- Individual nucleotide counts.
-- GC percentage.
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open the project folder in VS Code.
+4. Run `protein_analyzer.py`.
 
 ## What I Learned
-I learned how Python can be applied to basic biological sequence analysis.
+- Basic protein sequence analysis.
+- Python variables and loops.
+- Conditional statements.
+- Sequence validation.
+- Calculating amino acid composition.
+
+## Author
+BSc Biochemistry Student | Learning Bioinformatics
+
+## Project Status
+Completed – Beginner Level
